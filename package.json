@@ -1,9 +1,9 @@
 {
   "name": "object-type-traits",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "type traits for js object",
   "main": "index.js",
-  "types":"index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "ava -v",
     "eslint": "eslint . --cache",
@@ -24,7 +24,7 @@
     "url": "https://github.com/yumetodo/object-type-traits/issues"
   },
   "homepage": "https://github.com/yumetodo/object-type-traits#readme",
-  "engines":{
+  "engines": {
     "node": ">=8.0.0"
   },
   "devDependencies": {
