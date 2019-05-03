@@ -30,6 +30,6 @@
   "devDependencies": {
     "ava": "^1.0.1",
     "eslint": "^5.0.0",
-    "eslint-plugin-node": "^8.0.0"
+    "eslint-plugin-node": "^9.0.0"
   }
 }
