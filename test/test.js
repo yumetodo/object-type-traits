@@ -1,4 +1,6 @@
+// eslint-disable-next-line node/no-unsupported-features/es-syntax
 import test from 'ava';
+// eslint-disable-next-line node/no-unsupported-features/es-syntax
 import type from '../index'
 
 test('type.of', t => {
