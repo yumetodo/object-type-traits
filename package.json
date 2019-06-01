@@ -28,7 +28,7 @@
     "node": ">=8.0.0"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-node": "^9.0.0"
   }
