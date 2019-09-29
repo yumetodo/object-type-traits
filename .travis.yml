@@ -1,5 +1,12 @@
 language: node_js
 node_js:
- - "8"
- - "9"
- - "10"
+- lts/*
+cache: npm
+deploy:
+  provider: npm
+  email: yume-wikijp@live.jp
+  skip_cleanup: true
+  on:
+    tags: true
+  api_key:
+    secure: UHuS8t+w+/ek1sPclE3MBb4/BoRyGGruJDbOzzdAyquKNx4Fr4NOOom1toXm58oxKIxo2/2nQxyWXVpHoey41Wr/4NlOoGJvrjHSCvfN04lmDb39Y2gX8P1ML5pI2RNkNLf44KOGFoRbs15XNOFKYKwJcQYr+rrMqrDw/1bPr8Eu2HqhcRp52CHf9ZGrrxnMlR9FtvGxqBfVibXDnLEj6jOgN1rP3O4jzbA4xfbOlW/1jkot80R/jBF/Cp7658DIak8WvRIP87BDka01/mQ0/GaMMw2eoODSkTSkVcRrXKJbTknb1MNn2+2Rl+bVxOwO9SV3qlmaHBfLjY6N38m3/Spcb4y4fGDpqDeAT1I8GuTic9jSFJ25nr4cPhu+VVYwDpFQdK6NWOPpA2z27cxoeiEw3heYx0yzU29gBv8o5Tb+ululdH8DSVguy4bS4joWl+0u8lTYw1ox+9E+Jf05ticUJ/yBJunUxqkwm9fnt7W/fgviJzBnS4w5P4TEjyPUXH/aOEZrvs6AQ8hZFbz+St/S0GN4fv9i836U3ukZzTJYd6PRquTe3izAJi4gYBLZPoWm04LZ3FuVcfcjkyhJn6q3siWGVcs31UVNXWPLEgksAe3vGg0EgeECssyssJoljFb2j92efXh4F3/OxjyT9966dRIPshkv4PWZ0lEhZh4=
