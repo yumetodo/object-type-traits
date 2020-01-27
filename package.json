@@ -28,8 +28,14 @@
     "node": ">=8.0.0"
   },
   "devDependencies": {
-    "ava": "^2.3.0",
+    "ava": "^3.0.0",
     "eslint": "^6.5.1",
-    "eslint-plugin-node": "^11.0.0"
+    "eslint-plugin-node": "^11.0.0",
+    "esm": "^3.2.25"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
   }
 }
