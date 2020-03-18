@@ -1,4 +1,4 @@
-// eslint-disable-next-line node/no-unsupported-features/es-syntax
+// eslint-disable-next-line node/no-unsupported-features/es-syntax,node/no-unpublished-import
 import test from 'ava';
 // eslint-disable-next-line node/no-unsupported-features/es-syntax
 import type from '../index'
